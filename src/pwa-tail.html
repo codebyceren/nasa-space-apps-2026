@@ -1,0 +1,5 @@
+<script>
+if('serviceWorker' in navigator&&location.protocol==='https:')addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+let __dp=null;addEventListener('beforeinstallprompt',e=>{e.preventDefault();__dp=e;let b=document.getElementById('instBtn');if(!b){b=document.createElement('button');b.id='instBtn';b.className='primary';b.style.cssText='position:fixed;left:16px;bottom:16px;z-index:60;padding:12px 18px';b.textContent={tr:'📲 Uygulama olarak yükle',en:'📲 Install as app',ru:'📲 Установить приложение'}[document.documentElement.lang]||'📲 Install';b.onclick=async()=>{b.remove();__dp.prompt();__dp=null;};document.body.appendChild(b);}});
+addEventListener('appinstalled',()=>{const b=document.getElementById('instBtn');if(b)b.remove();});
+</script>

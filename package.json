@@ -1,0 +1,14 @@
+{
+  "name": "mission-mars",
+  "version": "1.7.0",
+  "private": true,
+  "description": "Mission Mars — Explore Before You Build. A 3D browser game built on real NASA data (NASA Space Apps Challenge 2026).",
+  "scripts": {
+    "build": "python3 tools/build.py",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.160.0"
+  }
+}
