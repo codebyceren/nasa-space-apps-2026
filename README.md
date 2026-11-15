@@ -1,7 +1,7 @@
 # 🚀 Mission Mars — Explore Before You Build
 
 **NASA Space Apps Challenge 2026** · Challenge: *Build a Junior Astronaut Mission Trainer*
-**Team BagBang:** Zehra Lülü · Ceren Günhan · Muslima Mamanojova
+**Team BagBang:** Ceren Günhan · Zehra Lülü · Muslima Mamajonova
 
 ▶ **Play now:** https://codebyceren.github.io/nasa-space-apps-2026/
 
